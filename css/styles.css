@@ -1,3 +1,4 @@
+@import url('fonts.css');
 header, main, footer {
   padding-left: 240px;
 }
@@ -14,10 +15,23 @@ header, main, footer {
 
 .side-nav li:hover,
 .side-nav li.active{
-	background: #FFF;
+	background: #e65100;
 }
 
 .side-nav li:hover a,
 .side-nav li.active a{
 	color: #000 !important;
+}
+.side-nav .photo{
+	height: auto;
+}
+.text-justify{
+	text-align: justify;
+}
+.caption h3,
+.caption h5{
+	color: #e0e0e0;
+}
+.container{
+	overflow: hidden;
 }
