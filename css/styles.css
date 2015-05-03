@@ -1,0 +1,23 @@
+header, main, footer {
+  padding-left: 240px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+.side-nav li{
+	padding: 0;
+}
+
+.side-nav li:hover,
+.side-nav li.active{
+	background: #FFF;
+}
+
+.side-nav li:hover a,
+.side-nav li.active a{
+	color: #000 !important;
+}

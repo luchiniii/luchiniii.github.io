@@ -1,10 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<title>Portafolio</title>
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="css/styles.css" media="screen,projection">
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 </head>
 <body>
-	<h1>Hola mundo</h1>
+	<header>
+		<nav class="red darken-4">
+			<ul id="slide-out" class="side-nav fixed red darken-4">
+				<li><a class="yellow-text text-lighten-5 waves-effect waves-light waves-yellow" href="#!">Acerca de mi</a></li>
+				<li><a class="yellow-text text-lighten-5 waves-effect waves-light waves-yellow" href="#!">Conocimientos</a></li>
+				<li><a class="yellow-text text-lighten-5 waves-effect waves-light waves-yellow" href="#!">Proyectos</a></li>
+			</ul>
+			<div class="container">
+				<a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+			</div>
+			<div class="container center-align">
+				<strong>Luis Aurelio Palomá Meza - Web Developer</strong>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="container">
+			<p>Hola</p>
+			<p>Mi nombre es Luis, soy desarrollador web y me encanta la innovación y la creatividad. Deseo ser parte de las personas que cambian la web y la convierten en algo mucho mejor, quiero ser un factor de cambio para la web.</p>
+		</div>
+	</main>
+  	
+	
+	
+	
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script>
+		$(".button-collapse").sideNav();
+	</script>
 </body>
 </html>
